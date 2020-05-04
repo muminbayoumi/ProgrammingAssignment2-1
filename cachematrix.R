@@ -1,7 +1,12 @@
-## Put comments here that give an overall description of what your
-## functions do
+## First function creates a list of functions which base of each other and can
+## be used singularly and conditionally in the second function.  Second function
+## is somewhat a binary decision tree to decide whether the computation needs to
+## or if the value required can be attained without running the computation.
+##
+## I noticed that i created a non-invertible matrix by mistake and my function
+## stalled with no meaning full error produced. Might be useful learn how to add
+## such conditions.
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix(),...) {
         #initialiing inversese placeholder
@@ -40,3 +45,4 @@ cacheSolve <- function(x, ...) {
 
         ## Return a matrix that is the inverse of 'x'
 }
+
